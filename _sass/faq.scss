@@ -1,0 +1,53 @@
+// faq scss
+.faq {
+  border-top: solid 3px #6225B5;
+
+  h3 {
+    color: #6225B5;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+
+    &::after {
+      content: '';
+      width: 60px;
+      height: 2px;
+      background: #6225B5;
+      display: block;
+      margin: 7px 0;
+    }
+  }
+
+  .card {
+    .card-body {
+      opacity: 0.6;
+    }
+  }
+
+  .card-header {
+    background-color: white;
+    border-bottom: none;
+    
+    &:hover {
+      cursor: pointer;
+    }
+
+    img {
+      height: 28px;
+    }
+
+    &:not(.collapsed) {
+      img {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+#border {
+  border-bottom: 4px solid rgba(87,197,254,0.97);
+  width: 25%;
+}

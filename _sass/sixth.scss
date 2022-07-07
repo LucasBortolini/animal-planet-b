@@ -1,0 +1,130 @@
+section.sixth {
+  background-color: #0C3900;
+  border-bottom: 4px solid #6225B5;
+  border-top: 4px solid #6225B5;
+
+  p {
+    color: #FFF;
+  }
+
+  h1 {
+    &::after {
+      content: '';
+      width: 100px;
+      height: 2px;
+      background: #FFF;
+      display: block;
+      margin: 7px 0;
+    }
+  }
+
+  h2 {
+    &::after {
+      content: '';
+      height: 2px;
+      background: #F07F0F;
+      display: block;
+      margin: 7px 0;
+      width: 35%;
+      margin-top: 24px;
+    }
+  }
+
+  h3 {
+    font-size: 15px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 28px;
+    margin-top: 32px;
+  }
+
+  .font-links {
+    color: white;
+    text-decoration: none;
+  }
+
+  .font-title {
+    font-size: 22px;
+    color: #FFF;
+    font-weight: bold;
+  }
+
+  .font-more {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+  }
+
+  ul.list {
+    padding: 0;
+    column-count: 2;
+    column-gap: 20px;
+    list-style: none;
+    font-size: 14px;
+
+    @media (min-width: 576px) {
+      column-count: 6;
+    }
+
+    li {
+      padding: 8px 0;
+      background: transparent;
+      border: none;
+      border-bottom: 3px solid;
+      border-color: #FFF;
+      font-weight: 700;
+    }
+  }
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+  transition: color 0.2s;
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  color: #FFF;
+}
+
+a.flip-animate-sixth {
+  perspective: 1000px;
+  
+  span {
+    position: relative;
+    display: inline-block;
+    padding: 0;    
+    transition: transform 0.2s;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+  }
+  
+  span:before {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: attr(data-hover);
+    transition: color 0.2s;
+    transform: rotateX(-90deg);
+    transform-origin: 50% 0;
+    text-align: center;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+  
+  &:hover span,
+  &:focus span {
+    transform: rotateX(90deg) translateY(-22px);
+  }
+  
+  &:hover span:before,
+  &:focus span:before {
+    color: rgb(98, 37, 181);
+  }
+}

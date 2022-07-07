@@ -1,0 +1,42 @@
+---
+layout: base
+---
+
+{%- include header.html -%}
+<div class="post-layout">
+  <div class="d-flex flex-column align-items-center bg-banner bg-no-repeat">
+    <div class="d-flex justify-content-center mx-auto pt-4">
+      <div class="d-flex">
+        <a href="#">
+          <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe">
+        </a>
+      </div>
+    </div>
+    <div class="container-blog px-2 px-md-5 py-3">
+      <div class="d-flex flex-wrap justify-content-center justify-content-md-between flex-md-nowrap bg-white px-4 py-3">
+        <article>
+          <nav class="mb-3">
+            <a href="{{site.url}}" class="text-dark">Mundo Animal</a>
+            <span class="mx-1">/</span> 
+            <span>data</span>
+            <span class="mx-1">/</span>
+            <span id="breadcrumb">Título</span>
+          </nav>
+          <header class="mb-3">
+            <h1 id="recipe-title">
+              Title
+            </h1>
+          </header>
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+{%- include blog.html -%}
+{%- include fourth.html -%}
+{%- include faq.html -%}
+{%- include sixth.html -%}
+{%- include footer.html -%}
+{%- include modal.md -%}
+{%- include icons.html -%}

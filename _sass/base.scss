@@ -1,0 +1,146 @@
+// base scss
+body, * {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-primary {
+  color: green !important;
+}
+
+.text-blue {
+  color: #1868C9 !important;
+}
+
+.w-95 { 
+  max-width: 95%;
+}
+
+img.success-image {
+  transform: translate(3%) !important;
+  width: 140px !important;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: underline;
+  outline: 0;
+
+  &.link-white {
+    color: #FFF;
+    text-decoration-color: #FFF;
+  }
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+.input-group {
+  input.form-control,
+  select.form-control,
+  textarea.form-control {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: none;
+    padding: 2px 10px;
+    border-radius: 10px !important;
+    line-height: 1;
+    height: 30px;
+
+    &[type="time"] {
+      padding: 0 0 0 14px;
+    }
+
+    &::placeholder {
+     color: #2F2E2A;
+     opacity: 0.6;
+   }
+
+   &.btn {
+    background-color: #F07F0F;
+    height: 30px;
+    padding: 2px 8px;
+    border-radius: 6px !important;
+    color: #FFFFFF;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
+textarea.form-control {
+  padding: 14px 10px 2px;
+  height: auto !important;
+}
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btn-final {
+  box-shadow: inset 0.57px 3px 0px #0068FF45;
+  border: none;
+  padding: 2px 10px;
+  border-radius: 6px;
+  line-height: 1;
+  height: 30px;
+}
+
+.section-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.hover-icon {
+  &:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  } 
+}
+
+.cards {
+  max-width: 974px;
+  padding-bottom: 2px;
+
+  .card-1 {
+    padding-top: 2px;
+  }
+
+  .card-2 {
+    padding-top: 2px;
+  }
+
+  .card-3 {
+    padding-top: 2px;
+  }
+
+  @media (min-width: 959px) {
+    border-bottom: 4px solid #6225B5;
+
+    .card-1 {
+      padding-right: 2px;
+    }
+
+    .card-2 {
+      padding-right: 2px;
+    }
+
+    .card-3 {
+      padding-right: 2px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.post-layout {
+  article {
+    @media (min-width: 576px) {
+      width: 75%;
+    }
+  }
+
+  h1 {
+    color: #0C3900;
+  }
+
+  .bg-black {
+    background-color: #FFF;
+  }
+
+  .bg-banner {
+    background-image: url("images/banner-index.jpg");
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .container-blog {
+    width: 85%;
+  }
+}

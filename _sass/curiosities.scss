@@ -1,0 +1,53 @@
+.curiosities {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/curiosities-mobile.jpg");
+
+  @media (min-width: 959px) {
+    background-image: url("images/curiosities.jpg");
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6225B5;
+    padding-top: 174px;
+
+    @media (min-width: 413px) {
+      padding-top: 226px;
+    }    
+
+    @media (min-width: 959px) {
+      padding-top: 52px;  
+    }
+  }
+
+  input {
+    background-color: #6225B5;
+    color: white;
+    
+    @media (min-width: 959px) {
+      width: 25%;
+
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      } 
+    }
+  }
+
+  .btn-curiosities {
+    padding-bottom: 14px;
+    padding-top: 8px;
+
+    @media (min-width: 413px) {
+      padding-bottom: 28px;
+    }
+
+    @media (min-width: 959px) {
+      padding-bottom: 32px;
+      padding-top: 5px;
+    }
+  }
+}

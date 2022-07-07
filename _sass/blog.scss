@@ -1,0 +1,112 @@
+// blog scss
+.blog {
+  h3 {
+    color: #6225B5;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+
+    &::after {
+      content: '';
+      width: 60px;
+      height: 2px;
+      background: #6225B5;
+      display: block;
+      margin: 7px 0;
+    }
+  }
+
+  h4 {
+    color: #2F2E2A;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+
+    @media (min-width: 579px) {
+      font-size: 14px;
+    }
+
+    @media (min-width: 1079px) {
+      font-size: 15px;
+    }
+  }
+
+  p {
+    color: #555;
+    font-size: .85rem;
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 320px;
+    height: auto;
+
+    @media (min-width: 959px) {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (min-width: 1079px) {
+      width: auto;
+    }
+  }
+
+  span {
+    color: gray;
+    font-size: 15px;
+  }
+
+  .hover-post {
+    cursor: pointer;
+    text-decoration: none;
+
+    @media (min-width: 579px) {
+      &:hover {
+        background-color: #0C3900;
+
+        & > div h4 {
+          color: #FFF;
+        }
+
+        & > div p {
+          color: #FFF;
+        }
+      }
+    }
+  }
+
+  .input-group input.form-control.btn {
+    height: 36px;
+
+    @media (min-width: 959px) {
+      height: 50px;
+    }
+  }
+
+  .btn-more {
+    width: 50%;
+
+    @media (min-width: 959px) {
+      width: 25%;
+    }
+  }
+}
+
+@media (min-width: 959px) {
+  .line-blog {
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.banner-recipe {
+  width: 320px;
+  height: auto;
+
+  @media (min-width: 959px) {
+    width: auto;
+    height: auto;
+  }
+}

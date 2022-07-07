@@ -1,0 +1,24 @@
+title: Mundo Animal
+tagline:
+logo:
+description: >-
+baseurl: /homolog8/vcsabia/mundo-animal
+url: http://leadmedia.com.br
+lang: pt-br
+theme: minima
+author:
+  - name: Lucas Sales
+    url: http://github.com/LucasBortolini
+plugins:
+  - jekyll-postcss
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-coffeescript
+sass:
+  sourcemap: never
+postcss:
+  cache: false
+collections:
+  pages:
+    output: true

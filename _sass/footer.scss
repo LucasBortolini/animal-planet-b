@@ -1,0 +1,301 @@
+.footer-1 {
+	background-color: #F7F7F7;
+	color: #6225B5;
+	font-size: 14px;
+	font-weight: bold;
+  padding: 0 20px;
+  border-bottom: 4px solid #6225B5;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .hover-icon {
+    width: 46px;
+
+    &:hover {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+    } 
+  }
+
+  .line {
+    width: auto;
+    height: 2px;
+    background: #0D4752;
+    display: block;
+  }
+
+  .line-2 {
+    width: auto;
+    height: 2px;
+    background: #0D4752;
+    display: block;
+
+    @media (min-width: 576px) {
+      display: none;
+    }
+  }
+
+  .footer-icon {
+
+    img {
+      list-style: none;
+      padding-right: 4px;
+      width: 30px;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    font-size: 14px;
+    padding: 4px 0;
+    margin-bottom: 8px;
+    line-height: 1;
+    
+    @media (min-width: 576px) {
+      list-style: none;
+      text-align: left;
+    }
+
+    li {
+      @media (min-width: 360px) {
+        font-size: 12px;
+        padding: 4px 0;
+        font-weight: 600;
+      }
+
+      @media (min-width: 359px) {
+        font-size: 11px;  
+      }
+      
+      @media (min-width: 959px) {
+        font-size: 18px;  
+      }
+    }
+
+    @media (min-width: 576px) {
+      column-count: 3;
+    }
+  }
+
+  .list-img {
+    list-style: none;
+  }
+
+  .footer-1-apoio {
+    @media (min-width: 576px) {
+      display: flex;
+
+      .p-img {
+        padding-top: 4px;
+      }
+
+      .m-img {
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+
+      .m-img-2 {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+      }
+
+      h6 {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .pdl {
+    @media (min-width: 576px) {
+      li {
+        width: min-content;
+        white-space: nowrap;
+
+        &::before {
+          content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: inherit;
+          margin-right: 28px;
+          font-weight: normal; /* If you want it to be bold */
+          display: inline-block; /* Needed to add space between the bullet and the text */ 
+          width: 1em; /* Also needed for space (tweak if needed) */
+        }
+
+        &:first-child::before {
+          display: none;
+        }
+      }
+
+      column-count: 4;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+.line-footer .row>* {
+  padding-right: 0; 
+  padding-left: 0;
+}
+
+.line-footer {
+	content: '';
+  width: auto;
+  height: 2px;
+  background: #49a7c7 ;
+  display: block;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.footer-2 {
+	background-color: #0C3900;
+
+  .section-wrapper {
+    min-height: 64px;
+  }
+
+  img {
+    display: none;
+    z-index: 20;
+
+    @media (min-width: 959px) {
+      display: block;
+      bottom: -530px;
+      right: 40px;
+    }
+
+    @media (min-width: 1059px) {
+      bottom: -574px;
+      right: 60px;
+    }
+
+    @media (min-width: 1279px) {
+      bottom: -580px;
+      right: 144px;
+    }
+
+    @media (min-width: 1339px) {
+      bottom: -482px;
+      right: 228px;
+    }
+  }
+}
+
+.footer-pages {
+  @media (min-width: 576px) {
+    margin-right: 36px;
+  }
+}
+
+.footer-2 p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #FFF;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 0;
+  margin-bottom: 0rem;
+
+  @media (min-width: 413px) {
+    font-size: .9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-1,
+  .footer-2 p{
+    font-size: 1rem;
+  } 
+}
+
+@media (min-width: 576px) {
+  .d-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons-error-unregister {
+    display: flex;
+    justify-content: start;
+  }
+
+  .icons-error-unregister span {
+    font-size: 12px;
+    padding-top: 8px;
+  }
+
+  .social-media-icon img {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+
+  .social-media-icon span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 8px;
+  }
+}
+
+// animation
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  color: #222;
+}
+
+a.flip-animate {
+  perspective: 1000px;
+  
+  span {
+    position: relative;
+    display: inline-block;
+    padding: 0;    
+    transition: transform 0.2s;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+  }
+  
+  span:before {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: attr(data-hover);
+    transition: color 0.2s;
+    transform: rotateX(-90deg);
+    transform-origin: 50% 0;
+    text-align: center;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+  
+  &:hover span,
+  &:focus span {
+    transform: rotateX(90deg) translateY(-22px);
+  }
+  
+  &:hover span:before,
+  &:focus span:before {
+    color: rgb(12, 57, 0);
+  }
+}
