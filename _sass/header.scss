@@ -82,6 +82,7 @@
     Hamburger
   **/
   .hamburger {
+    position: relative;
     height: 45px;
     margin-bottom: 0;
     margin-left: 28px;
@@ -110,7 +111,7 @@
     background-color: gray;
     width: 300px;
     height: 200px;
-    right: 10.2rem;
+    right: 0;
     top: 10px;
     bottom: 0;
     padding-right: 24px;
@@ -118,6 +119,14 @@
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     transform: scale(0);
+
+    @media (min-width: 1079px) {
+      right: 4rem;  
+    }
+
+    @media (min-width: 1279px) {
+      right: 10.7rem;  
+    }
   }
   .nav-wrapper {
     position: relative;
@@ -170,8 +179,12 @@
   }
 
   #toggle:checked + .hamburger + .nav {
-    top: 110px;
+    top: 192px;
     transform: scale(1);
+
+    @media (min-width: 576px) {
+      top: 110px;
+    }
   }
 
   .navbar {
