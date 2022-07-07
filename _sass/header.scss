@@ -39,7 +39,7 @@
 
   .header-line {
     min-height: 96px;
-    width: 980px;
+    width: 960px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -59,7 +59,7 @@
     align-items: center;
 
     @media (min-width: 576px) {
-      max-width: 980px;
+      max-width: 960px;
       flex-direction: row;
       justify-content: flex-end;
     }
