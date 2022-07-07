@@ -168,6 +168,7 @@
   #toggle:checked + .hamburger .top-bun {
     transform: rotate(-45deg);
     margin-top: 25px;
+    width: 30px;
   }
   #toggle:checked + .hamburger .bottom-bun {
     opacity: 0;
@@ -176,6 +177,7 @@
   #toggle:checked + .hamburger .meat {
     transform: rotate(45deg);
     margin-top: -7px;
+    width: 30px;
   }
 
   #toggle:checked + .hamburger + .nav {
