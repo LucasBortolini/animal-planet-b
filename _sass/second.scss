@@ -1,12 +1,12 @@
 // animação tomando água scss
 section.second {
   background-image: url('images/banner-index2.jpg');
-  background-size: cover;
-  height: 100%;
+  width: 100%;
 
   @media (min-width: 1079px) {
     background-size: contain;
     background-repeat: no-repeat;
+    width: 315px;
   }
 
   p {
@@ -20,6 +20,7 @@ section.second {
     font-weight: bold;
     padding-top: 101px;
     padding-bottom: 16px;
+    padding-right: 129px;
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
@@ -30,21 +31,25 @@ section.second {
     @media (min-width: 383px) {
       font-size: 15px;
       padding-top: 108px;
+      padding-right: 135px;
     }
 
     @media (min-width: 413px) {
       font-size: 16px;
       padding-top: 119px;
+      padding-right: 149px;
     }
 
     @media (min-width: 427px) {
       font-size: 17px;
       padding-top: 120px;
+      padding-right: 146px;
     }
 
     @media (min-width: 959px) {
       font-size: 13px;
       padding-top: 84px;
+      padding-right: 0;
     }
 
     @media (min-width: 1079px) {

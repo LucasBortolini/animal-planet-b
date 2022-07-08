@@ -1,11 +1,12 @@
 // familia tomando agua scss
 section.first {
   background-image: url("images/banner-index1.jpg");
-  background-size: cover;
+  width: 100%;
 
   @media (min-width: 1079px) {  
     background-size: contain;
     background-repeat: no-repeat;
+    width: 315px;
   }
 
   p {
@@ -20,25 +21,30 @@ section.first {
     text-align: left;
     padding-top: 101px;
     padding-bottom: 16px;
+    padding-right: 115px;
 
     @media (min-width: 383px) {
       padding-top: 108px;
       font-size: 15px;
+      padding-right: 120px;
     }
 
     @media (min-width: 413px) {
       font-size: 16px;
       padding-top: 119px;
+      padding-right: 133px;
     }
 
     @media (min-width: 427px) {
       font-size: 17px;
       padding-top: 120px;
+      padding-right: 129px;
     }
 
     @media (min-width: 959px) {
       font-size: 13px;
       padding-top: 84px;
+      padding-right: 0;
     }
 
     @media (min-width: 1079px) {

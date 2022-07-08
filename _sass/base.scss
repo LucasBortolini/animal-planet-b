@@ -113,34 +113,12 @@ input[type=number] {
 }
 
 .cards {
-  max-width: 960px;
-  padding-bottom: 2px;
-
-  .card-1 {
-    padding-top: 2px;
-  }
-
-  .card-2 {
-    padding-top: 2px;
-  }
-
-  .card-3 {
-    padding-top: 2px;
-  }
+  background: #ccc;
+  padding-top: 8px;
+  padding-bottom: 16px;
 
   @media (min-width: 959px) {
-    border-bottom: 4px solid #6225B5;
-
-    .card-1 {
-      padding-right: 2px;
-    }
-
-    .card-2 {
-      padding-right: 2px;
-    }
-
-    .card-3 {
-      padding-right: 2px;
-    }
+    padding-top: 40px;
+    padding-bottom: 36px;    
   }
 }

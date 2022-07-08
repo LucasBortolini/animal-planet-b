@@ -3,9 +3,10 @@ section.third {
   background-image: url("images/banner-index3.jpg");
   background-size: cover;
 
-  @media (min-width: 1279px) {
+  @media (min-width: 1079px) {
     background-size: contain;
     background-repeat: no-repeat;
+    width: 315px;
   }
 
   p {
@@ -101,6 +102,7 @@ section.third {
     @media (min-width: 413px) {
       margin-right: 14px;
       margin-bottom: 4px;
+      padding-right: 149px;
     }
 
     @media (min-width: 427px) {
