@@ -297,52 +297,55 @@ section.myModal-wrapper {
       width: 25% !important;
     }
   }
-}
 
-.modal-icon-social {
-  height: 52px;
+  .modal-icon-social {
+    height: 52px;
 
-  @media (min-width: 959px) {
-    height: 44px;
+    @media (min-width: 959px) {
+      height: 44px;
+    }
   }
-}
 
-.text-modal-phone {
-  font-weight: bold;
-  text-align: center;
-
-  @media (min-width: 768px) {
-    font-weight: normal;
-    font-size: 14px;
-    text-align: left;
-    padding-right: 52px;
-  }
-}
-
-.inner-text {
-  display: flex;
-  flex-direction: column-reverse;
-  flex-wrap: wrap;
-
-  @media (min-width: 768px) {
-    flex-direction: row;
-  }
-}
-
-.participate {
-  h1 {
-    font-size: 18px;
+  .text-modal-phone {
     font-weight: bold;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      font-weight: normal;
+      font-size: 14px;
+      text-align: left;
+      padding-right: 52px;
+    }
   }
 
-  span {
-    font-size: 16px;
-    font-weight: bold; 
+  .inner-text {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  .participate {
+    h1 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    span {
+      font-size: 16px;
+      font-weight: bold; 
+    }
+
+    img {
+      width: 40px;
+    }
+  }
+
+  .text-modal-curiosities {
+    font-size: 12px;
+    color: gray;
   }
 }
-
-.text-modal-curiosities {
-  font-size: 12px;
-  color: gray;
-}
-
