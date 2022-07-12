@@ -84,7 +84,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   //// CURIOSITIES
 
   const sectionCuriosities = document.querySelectorAll(".curiosities-icon");
-  console.log(sectionCuriosities);
   if (sectionCuriosities) {
     sectionCuriosities.forEach(sectionCuriosities => {
       sectionCuriosities.addEventListener("click", function() {
@@ -111,6 +110,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
   if (sectionIndicate) {
     sectionIndicate.addEventListener("click", function() {
       showModal("#modal-indicate"); 
+    });
+  }
+
+  const sectionIndicateSuccess = document.querySelector("#indicate-success");
+
+  if (sectionIndicateSuccess) {
+    sectionIndicateSuccess.addEventListener("click", function() {
+      showModal("#modal-indicate-success"); 
     });
   }
 

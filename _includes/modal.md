@@ -9,6 +9,7 @@
     {%- include participate.md -%}
     {%- include curiosities.md -%}
     {%- include indicate.md -%}
+    {%- include indicate-success.md -%}
     {%- include who-we-are.md -%}
     {%- include contact_us.md -%}
     {%- include cancel.md -%}
