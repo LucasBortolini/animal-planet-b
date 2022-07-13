@@ -1,0 +1,25 @@
+// share
+
+.share {
+  position: fixed;
+  z-index: 9999;
+  top: 122px;
+  left: 28px;
+
+  h1 {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  a {
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    } 
+  }
+
+  img {
+    width: 36px;
+  }
+}
