@@ -24,6 +24,19 @@
     }
   }
 
+
+  .btn-header {
+    input {
+      background: #FFCF00;
+
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }    
+    }
+  }
+
   .input-header {
     input {
       width: 150px;
