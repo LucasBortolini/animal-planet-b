@@ -10,11 +10,12 @@ section.third {
   }
 
   p {
-    color: #FFF;
+    color: #000;
     font-weight: bold;
     font-size: 13px;
     text-align: right;
     margin-bottom: 2px;
+    background-color: #5AFF2E;
 
     @media (min-width: 383px) {
       font-size: 13px;
@@ -29,7 +30,7 @@ section.third {
     }
 
     @media (min-width: 959px) {
-      font-size: 12px;
+      font-size: 13px;
     }
   }
 
@@ -90,30 +91,35 @@ section.third {
   }
 
   .text-wrapper {
-    padding-right: 140px;
-    padding-left: 100px;
-    padding-top: 28px;
+    padding-right: 124px;
+    padding-left: 64px;
+    padding-top: 106px;
     padding-bottom: 20px;
 
     @media (min-width: 383px) {
-      padding-right: 144px;
+      padding-right: 122px;
+      padding-left: 83px;
     }
 
     @media (min-width: 413px) {
       margin-right: 14px;
       margin-bottom: 4px;
-      padding-right: 149px;
+      padding-top: 111px;
+      padding-right: 115px;
+      padding-left: 92px;
     }
 
     @media (min-width: 427px) {
       margin-right: 16px;
-      margin-bottom: 8px
+      margin-bottom: 8px;
+      padding-right: 119px;
+      padding-left: 73px;
     }
 
     @media (min-width: 959px) {
-      padding-right: 132px;
-      padding-left: 64px;
-      padding-top: 6px;
+      padding-right: 118px;
+      padding-left: 14px;
+      padding-top: 78px;
       padding-bottom: 3px;
       margin-right: 0; 
     }
@@ -126,7 +132,7 @@ section.third {
     overflow: hidden;
   }
   .css-typing-third p:nth-child(1) {
-    width: 9.2em;
+    width: 13.2em;
     opacity: 0;
     -webkit-animation: type .2s steps(40, end);
     animation: type .2s steps(40, end);
@@ -136,22 +142,22 @@ section.third {
     animation-fill-mode: forwards;
 
     @media (min-width: 383px) {
-      width: 10.7em;
+      width: 13.7em;
     }
 
     @media (min-width: 959px) {
-      width: 10.2em;
+      width: 14em;
       -webkit-animation-delay: 2.8s;
       animation-delay: 2.8s;
     }
 
     @media (min-width: 1079px) {
-      width: 10.7em;
+      width: 14.3em;
     }
   }
 
   .css-typing-third p:nth-child(2) {
-    width: 9.2em;
+    width: 13.2em;
     opacity: 0;
     -webkit-animation: type2 .2s steps(40, end);
     animation: type2 .2s steps(40, end);
@@ -161,186 +167,17 @@ section.third {
     animation-fill-mode: forwards;
 
     @media (min-width: 383px) {
-      width: 10.7em;
+      width: 13.7em;
     }
 
     @media (min-width: 959px) {
-      width: 10.2em;
+      width: 14em;
       -webkit-animation-delay: 3s;
       animation-delay: 3s;
     }
 
     @media (min-width: 1079px) {
-      width: 10.7em;
-    }
-  }
-
-  .css-typing-third p:nth-child(3) {
-    width: 9.2em;
-    opacity: 0;
-    -webkit-animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
-    animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-
-    @media (min-width: 383px) {
-      width: 10.7em;
-    }
-
-    @media (min-width: 959px) {
-      width: 10.2em;
-      -webkit-animation-delay: 3.2s;
-      animation-delay: 3.2s;
-    }
-
-    @media (min-width: 1079px) {
-      width: 10.7em;
-    }
-  }
-
-  @keyframes type {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      border: none;
-      opacity: 1;
-    }
-  }
-
-  @-webkit-keyframes type {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      border: none;
-      opacity: 1;
-    }
-  }
-
-  @keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
-  }
-
-  @-webkit-keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
-  }
-
-  @keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-  @-webkit-keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: tranparent;
-    }
-  }
-
-  // third animation 2
-
-  .css-typing-third-2 p {
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  
-  .css-typing-third-2 p:nth-child(1) {
-    width: 9.2em;
-    opacity: 0;
-    -webkit-animation: type .2s steps(40, end);
-    animation: type .2s steps(40, end);
-    -webkit-animation-delay: 3.2s;
-    animation-delay: 3.2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-
-    @media (min-width: 383px) {
-      width: 10.7em;
-    }
-
-    @media (min-width: 959px) {
-      width: 10.2em;
-      -webkit-animation-delay: 3.4s;
-      animation-delay: 3.4s;
-    }
-
-    @media (min-width: 1079px) {
-      width: 10.7em;
-    }
-  }
-
-  .css-typing-third-2 p:nth-child(2) {
-    width: 9.2em;
-    opacity: 0;
-    -webkit-animation: type2 .2s steps(40, end);
-    animation: type2 .2s steps(40, end);
-    -webkit-animation-delay: 3.4s;
-    animation-delay: 3.4s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-
-    @media (min-width: 383px) {
-      width: 10.7em;
-    }
-
-    @media (min-width: 959px) {
-      width: 10.2em;
-      -webkit-animation-delay: 3.6s;
-      animation-delay: 3.6s;
-    }
-
-    @media (min-width: 1079px) {
-      width: 10.7em;
+      width: 14.3em;
     }
   }
 
