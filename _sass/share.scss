@@ -1,10 +1,15 @@
-// share
+// share absolute
 
 .share {
   position: fixed;
+  display: none;
   z-index: 9999;
   top: 122px;
   left: 28px;
+
+  @media (min-width: 576px) {
+    display: block;
+  }
 
   h1 {
     font-size: 14px;
