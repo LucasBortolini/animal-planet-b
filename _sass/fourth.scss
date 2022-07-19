@@ -33,15 +33,44 @@
     z-index: 999999;
     padding: 0 36px;
     border-radius: 20px;
-    border: 2px solid #000;
-    right: 0;
-    top: 50px;
+    border: 2px solid #000; 
+    right: 65px;
+    top: 179px;
 
-    &:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
-    } 
+    @media (min-width: 383px) {
+      padding: 0 16px;
+      top: 180px;
+      right: 95px;
+    }
+
+    @media (min-width: 414px) {
+      top: 180px;
+      right: 106px; 
+    }
+
+    @media (min-width: 427px) {
+      top: 180px;
+      right: 112px;
+    }    
+
+    @media (min-width: 959px) {
+      right: 0;
+      top: 50px;
+
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .responsive-text {
+    margin-bottom: 52px;
+
+    @media (min-width: 959px) {
+      margin-bottom: 0;
+    }
   }
 
   .fourth-section {
