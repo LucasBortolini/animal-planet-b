@@ -1,13 +1,26 @@
+// content layout post
 .content-layout {
   p {
     opacity: 0.8;
+    font-size: 14px;
   }
 
-  span {
-    padding-top: 4px;
+  span.tag {
+    background: #455968;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 16px;
+    font-size: 14px;
+    border-radius: 14px;
   }
 
   img {
     width: 38px;
+    height: 38px;
+  }
+
+  textarea {
+    width: 100%;
+    resize: none;
   }
 }
