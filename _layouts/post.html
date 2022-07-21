@@ -2,41 +2,61 @@
 layout: base
 ---
 
-{%- include header.html -%}
+<!-- header -->
+{%- include header.html -%} <!-- end header -->
+<!-- post share -->
+{%- include share.html -%} <!-- end post share -->
+<!-- post layout -->
 <div class="post-layout">
   <div class="d-flex flex-column align-items-center bg-banner bg-no-repeat">
     <div class="d-flex justify-content-center mx-auto pt-4">
+      <!-- banner post -->
       <div class="d-flex">
         <a href="#">
           <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe">
         </a>
-      </div>
+      </div> <!-- end banner post -->
     </div>
+    <!-- container blog -->
     <div class="container-blog px-2 px-md-5 py-3">
       <div class="d-flex flex-wrap justify-content-center justify-content-md-between flex-md-nowrap bg-white px-4 py-3">
         <article>
+          <!-- breadcrumb -->
           <nav class="mb-3">
             <a href="{{site.url}}" class="text-dark">Mundo Animal</a>
             <span class="mx-1">/</span> 
             <span>data</span>
             <span class="mx-1">/</span>
             <span id="breadcrumb">Título</span>
-          </nav>
-          <header class="mb-3">
-            <h1 id="recipe-title">
-              Title
-            </h1>
-          </header>
-          {{ content }}
+          </nav> <!-- end breadcrumb -->
+          <!-- title -->
+          <div class="mb-3">
+            <h1 id="recipe-title" class="text-uppercase">
+              Título exemplo caixa alta
+            </h1> <!-- end title -->
+            <!-- border title -->
+            <hr class="w-50 mt-2 mb-4"> <!-- end border title -->
+          </div>
+          <!-- content -->
+          {{ content }} <!-- end content -->
+          <!-- blog post -->
+          {%- include blog-post.html -%} <!-- end blog post -->
+          {%- include header-post.html -%}
         </article>
       </div>
-    </div>
+    </div> <!-- end container blog -->
   </div>
-</div>
-{%- include blog.html -%}
-{%- include fourth.html -%}
-{%- include faq.html -%}
-{%- include sixth.html -%}
-{%- include footer.html -%}
-{%- include modal.md -%}
-{%- include share.html -%}
+</div> <!-- end post layout -->
+<!-- post blog -->
+{%- include blog.html -%} <!-- end post blog -->
+<!-- post indicate -->
+{%- include fourth.html -%} <!-- end post indicate -->
+<!-- post faq -->
+{%- include faq.html -%} <!-- end post faq -->
+<!-- post project "você sabia" -->
+{%- include sixth.html -%} <!-- end post project "você sabia" -->
+<!-- post footer -->
+{%- include footer.html -%} <!-- end post footer -->
+<!-- post modal -->
+{%- include modal.md -%} <!-- end post modal -->
+
