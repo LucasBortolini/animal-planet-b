@@ -1,0 +1,93 @@
+// header post
+.header-blog {
+  padding: 0;
+  background-color: #0C3900;
+  border-bottom: 4px solid #6225B5;
+  z-index: 1;
+
+  h5 {
+    font-size: 14px;
+    color: #FFF;
+    margin: 0;
+  }
+
+  p {
+    color: #FFF;
+    margin-bottom: 1px;
+  }
+
+  a {
+    color: #FFF;
+    text-decoration: underline;
+
+    &:hover {
+      color: yellow;
+    }
+  }
+
+  .btn-header {
+    input {
+      background: #FFCF00;
+
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }    
+    }
+  }
+
+  .input-header {
+    input {
+      width: 150px;
+    }
+  }
+
+  .checkbox-header {
+    input {
+      margin-top: 3px;
+      margin-right: 7px;
+    }
+  }
+
+  .header-line {
+    min-height: 96px;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media (min-width: 576px) {
+      flex-grow: 1;
+      min-height: 48px;
+      align-items: center;
+    }
+  }
+
+  .header-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 576px) {
+      max-width: 960px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+
+  .header-logo {
+    padding: 20px 0;
+  }
+
+  .form-header {
+    z-index: 1;
+    width: 80%;
+  }
+
+  #toggle {
+    display: none;
+  }
+}
