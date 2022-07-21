@@ -1,0 +1,44 @@
+// blog post
+.blog-post {
+  h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 100;
+  }
+
+  div a div h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: lighter;
+
+  }
+
+  div a div p {
+    font-size: 14px;
+    font-weight: lighter;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .hover-post {
+    cursor: pointer;
+    text-decoration: none;
+
+    @media (min-width: 579px) {
+      &:hover {
+        background-color: #0C3900;
+
+        & > div h3 {
+          color: #FFF;
+        }
+
+        & > div p {
+          color: #FFF;
+        }
+      }
+    }
+  }
+}
