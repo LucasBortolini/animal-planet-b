@@ -1,0 +1,44 @@
+.did-you-know {
+  background: #ccc;
+
+  h5 {
+    font-size: 20px;
+  }
+
+  div h5 {
+    font-weight: 100;
+  }
+
+  div a span {
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  img {
+    width: 50px;
+  }
+
+  hr {
+    color: #000;
+  }
+
+  .hover-post {
+    cursor: pointer;
+    text-decoration: none;
+
+    @media (min-width: 579px) {
+      &:hover {
+        background-color: #0C3900;
+
+        & > a span {
+          color: #FFF;
+        }
+
+        & > a span {
+          color: #FFF;
+        }
+      }
+    }
+  }
+}

@@ -41,8 +41,15 @@ layout: base
           {{ content }} <!-- end content -->
           <!-- blog post -->
           {%- include blog-post.html -%} <!-- end blog post -->
-          {%- include header-post.html -%}
+          <!-- header post -->
+          {%- include header-post.html -%} <!-- end header post -->
         </article>
+        <div class="float-right w-100">
+          <!-- ads post -->
+          {%- include ads-post.html -%} <!-- end ads post -->
+          <!-- did you know post -->
+          {%- include did-you-know-post.html -%} <!-- end did you know post -->
+        </div>
       </div>
     </div> <!-- end container blog -->
   </div>
