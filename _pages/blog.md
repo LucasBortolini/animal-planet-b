@@ -13,32 +13,32 @@ permalink: /post
   </div>
   <!-- tags post -->
   <div class="d-flex py-3 my-3">
-    <div class="d-flex justify-content-center">
-      <div href="{{ '#' | relative_url }}" class="pr-1">
+    <div class="d-flex justify-content-center flex-wrap gap-tags">
+      <div href="{{ '#' | relative_url }}" class="pr-md-1">
         <span class="tag py-1">tag 1</span>
       </div>
-      <div href="{{ '#' | relative_url }}" class="px-1">
+      <div href="{{ '#' | relative_url }}" class="px-md-1">
         <span class="tag py-1">tag 2</span>
       </div>
-      <div href="{{ '#' | relative_url }}" class="px-1">
+      <div href="{{ '#' | relative_url }}" class="px-md-1">
         <span class="tag py-1">tag 3</span>
       </div>
-      <div href="{{ '#' | relative_url }}" class="px-1">
+      <div href="{{ '#' | relative_url }}" class="px-md-1">
         <span class="tag py-1">tag 4</span>
       </div>
-      <div href="{{ '#' | relative_url }}" class="px-1">
+      <div href="{{ '#' | relative_url }}" class="px-md-1">
         <span class="tag py-1">tag 5</span>
       </div>
-      <div href="{{ '#' | relative_url }}" class="px-1">
+      <div href="{{ '#' | relative_url }}" class="px-md-1">
         <span class="tag py-1">tag 6</span>
       </div>
-      <div href="{{ '#' | relative_url }}" class="px-1">
+      <div href="{{ '#' | relative_url }}" class="px-md-1">
         <span class="tag py-1">tag 7</span>
       </div>
-      <div href="{{ '#' | relative_url }}" class="px-1">
+      <div href="{{ '#' | relative_url }}" class="px-md-1">
         <span class="tag py-1">tag 8</span>
       </div>
-      <div href="{{ '#' | relative_url }}" class="pl-1">
+      <div href="{{ '#' | relative_url }}" class="pl-md-1">
         <span class="tag py-1">tag 9</span>
       </div>
     </div>
