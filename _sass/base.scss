@@ -78,6 +78,49 @@ textarea.form-control {
 }
 }
 
+.input-group-forum {
+  input.form-control-forum,
+  select.form-control-forum,
+  textarea.form-control-forum {
+    -webkit-box-shadow: inset 0px 0px 16px -10px rgba(0,0,0,0.52); 
+    box-shadow: inset 0px 0px 16px -10px rgba(0,0,0,0.52);
+    border: none;
+    padding: 2px 10px;
+    border-radius: 10px !important;
+    line-height: 1;
+    height: 30px;
+    background-color: #f6f6f6;
+
+    &[type="time"] {
+      padding: 0 0 0 14px;
+    }
+
+    &::placeholder {
+     color: #2F2E2A;
+     opacity: 0.6;
+   }
+
+   &.btn {
+    background-color: #F07F0F;
+    height: 30px;
+    padding: 2px 8px;
+    border-radius: 6px !important;
+    color: #FFFFFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+textarea.form-control-forum {
+  padding: 14px 10px 2px;
+  height: auto !important;
+}
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
