@@ -7,7 +7,7 @@ permalink: /forum
   <!-- form forum -->
   <form method="POST" action="">
     <div class="form px-md-3">
-      <div class="row">
+      <div class="row px-2 px-md-0">
         <div class="input-group-forum col-7 mb-3 px-0">
           <input type="text" class="form-control-forum shadow-none w-100" required placeholder="Título"/>
         </div>
@@ -26,9 +26,9 @@ permalink: /forum
           <textarea class="col form-control-forum shadow-none" required placeholder="Texto" rows="4"></textarea>
         </div>
       </div>
-      <div class="row d-flex justify-content-end">
+      <div class="row d-flex justify-content-end px-2 px-md-0">
         <div class="input-group-forum col-12 mb-3 px-0">
-          <input type="cel" class="form-control-forum shadow-none w-100" required placeholder="whatsapp"/>
+          <input type="cel" class="form-control-forum shadow-none w-100" required placeholder="Link/Fonte"/>
         </div>
         <div class="input-group-forum w-25 px-0 my-0">
           <input type="Submit" id="indicate-success" required value="Enviar" class="form-control-forum btn w-100"/>
