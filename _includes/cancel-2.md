@@ -1,4 +1,4 @@
-<!-- title: Descadastrar -->
+<!-- modal cancel 2 -->
 <div id="modal-cancel-success" class="d-none myModal-content">
   <p class="text-center">
     Pronto, você foi descadastrado com sucesso!
@@ -10,4 +10,4 @@
     <br>
     Esperamos que você retorne em breve!
   </p>
-</div>
+</div> <!-- end modal cancel 2 -->

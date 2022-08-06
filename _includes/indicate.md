@@ -1,8 +1,10 @@
+<!-- modal indicate -->
 <div id="modal-indicate" class="d-none myModal-content px-md-3">
   <h1 class="header-title">Indique!</h1>
   <p class="text-center mb-4">
     Indicar Amigos para se juntarem ao nosso grupo!
   </p>
+  <!-- form modal indicate -->
   <form method="POST" action="" class="px-md-5">
     <div class="form px-md-3">
       <div class="row">
@@ -22,5 +24,5 @@
         </div>
       </div>
     </div>
-  </form>
-</div>
+  </form> <!-- end form modal indicate -->
+</div> <!-- end modal indicate -->

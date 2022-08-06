@@ -1,3 +1,4 @@
+<!-- modal email -->
 <div id="modal-email" class="d-none myModal-content email-modal px-md-3">
   <h1 class="header-title">Cadastrar E-mail</h1>
   <form>
@@ -26,4 +27,4 @@
       </button>
     </div>
   </form>
-</div>
+</div> <!-- end modal email -->

@@ -1,5 +1,7 @@
+<!-- modal telegram -->
 <div id="modal-telegram" class="d-none myModal-content px-md-3">
   <h1 class="header-title mb-3">Entrar no Grupo</h1>
+  <!-- form modal telegram -->
   <form>
     <div>
       <input required type="checkbox" class="float-left checkbox-position">
@@ -29,5 +31,5 @@
         <span class="modal-icon-telegram font-hover font-weight-bold py-1 px-4">Entrar no Grupo</span>
       </button>
     </div>
-  </form>
-</div>
+  </form> <!-- form modal telegram -->
+</div> <!-- end modal telegram -->

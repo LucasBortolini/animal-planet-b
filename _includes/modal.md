@@ -1,3 +1,4 @@
+<!-- modal -->
 <section id="modal" class="d-none myModal-wrapper">
   <div class="myModal">
 
@@ -22,9 +23,10 @@
 
     
   </div>
+  <!-- close modal -->
   <a class="close" onclick="hideModal()">
     <button type="button" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
-  </a>
-</section>
+  </a> <!-- end close modal -->
+</section> <!-- end modal -->

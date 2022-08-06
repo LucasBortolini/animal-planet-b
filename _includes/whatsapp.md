@@ -1,5 +1,7 @@
+<!-- modal whatsapp -->
 <div id="modal-whatsapp" class="d-none myModal-content px-md-3">
   <h1 class="header-title mb-3">Entrar no Grupo</h1>
+  <!-- form modal whatsapp -->
   <form>
     <div>
       <input required type="checkbox" class="float-left checkbox-position">
@@ -29,5 +31,5 @@
         <span class="modal-icon-whats font-weight-bold font-hover py-1 px-4">Entrar no Grupo</span>
       </button>
     </div>
-  </form>
-</div>
+  </form> <!-- end form modal whatsapp -->
+</div> <!-- end modal whatsapp -->

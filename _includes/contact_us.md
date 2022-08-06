@@ -1,3 +1,4 @@
+<!-- modal contact us -->
 <div id="modal-contact-us" class="d-none myModal-content">
   <h1 class="header-title">Fale conosco</h1>
   <p class="text-center mt-3 mb-4">
@@ -30,4 +31,4 @@
       </div>
     </form>
   </div>
-</div>
+</div> <!-- end modal contact us -->

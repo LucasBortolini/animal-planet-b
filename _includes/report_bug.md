@@ -1,3 +1,4 @@
+<!-- modal report bug -->
 <div id="modal-report" class="d-none myModal-content">
   <h1 class="header-title">Comunicar Erro!</h1>
   <p class="text-center mb-4">
@@ -28,4 +29,4 @@
       </div>
     </div>
   </form>
-</div>
+</div> <!-- end modal report bug -->

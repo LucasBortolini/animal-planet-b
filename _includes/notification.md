@@ -1,3 +1,4 @@
+<!-- modal notification -->
 <div id="modal-notification" class="d-none myModal-content">
   <h1 class="header-title">Notificações</h1>
   <form>
@@ -14,5 +15,4 @@
       </button>
     </div>
   </form>
-</div>
-
+</div> <!-- end modal notification -->

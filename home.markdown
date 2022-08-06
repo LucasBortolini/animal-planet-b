@@ -6,9 +6,9 @@ sections:
   - banner.html
   - cards.md
   - blog.html
-  - fourth.html
+  - indicate.html
   - faq.html
-  - sixth.html
+  - you-know.html
 ---
 
 {% for section in page.sections %}

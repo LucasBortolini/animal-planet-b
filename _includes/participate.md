@@ -1,3 +1,4 @@
+<!-- modal participate -->
 <section id="modal-participate" class="d-none myModal-content participate px-md-3">
   <h1 class="pb-2 mt-0">
     Quer ver mais? Participe de nossa comunidade!
@@ -27,4 +28,4 @@
       é só clicar e entrar
     </span>
   </div>
-</section>
+</section> <!-- end modal participate -->

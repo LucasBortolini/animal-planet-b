@@ -1,3 +1,4 @@
+<!-- modal phone -->
 <div id="modal-phone" class="d-none myModal-content px-md-3">
   <div class="row">
     <h3 class="header-title text-md-left d-md-none my-0 px-2 px-md-0 mt-3 mt-md-5">
@@ -31,4 +32,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> <!-- end modal phone -->

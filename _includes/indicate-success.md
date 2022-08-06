@@ -1,3 +1,4 @@
+<!-- modal indicate success -->
 <div id="modal-indicate-success" class="d-none myModal-content">
   <p class="text-center modal-indicate-text pb-3">
     Que bom que você gostou da gente!
@@ -6,4 +7,4 @@
   <div class="d-flex justify-content-center">
     <a href="{{ '/' | relative_url }}" class="btn modal-indicate-btn px-4">Voltar</a>
   </div>
-</div>
+</div> <!-- end modal indicate success -->
