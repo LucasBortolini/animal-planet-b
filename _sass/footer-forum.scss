@@ -1,0 +1,23 @@
+.footer-forum {
+  .btn-footer {
+    input {
+      background: #FFCF00;
+
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }    
+    }
+  }
+
+  .input-footer {
+    input {
+      width: 110px;
+
+      @media (min-width: 576px) {
+        width: 150px;
+      }
+    }
+  }
+}
