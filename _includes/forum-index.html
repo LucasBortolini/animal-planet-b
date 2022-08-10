@@ -1,26 +1,25 @@
----
-layout: base
----
-
-<!-- header -->
-{%- include header.html -%} <!-- end header -->
 <!-- content forum -->
 <div class="forum-layout">
   <article class="section-wrapper">
     <!-- forum -->
     <div class="py-1 pt-5 px-2 px-md-0">
       <h1 class="my-0">Mural da Comunidade</h1>
-      {{ content }}
+      {%- include form-forum-index.html -%}
       <!-- forum order by -->
       {%- include order-by.html -%} <!-- end forum order by -->
       <!-- forum post interaction checked -->
       {%- include post-interaction-checked.html -%} <!-- end post interaction checked -->
       <!-- forum comments forum -->
       {%- include comments-forum.html -%} <!-- end comments forum -->
-      <!-- forum post interaction not checked -->
-      {%- include post-interaction-not-checked.html -%} <!-- end post interaction not checked -->
     </div> <!-- end forum -->
+    <div class="d-flex justify-content-center my-3">
+    <a id="more-forum">
+      <div class="btn-forum-index">
+        <span>
+          Ver mais
+        </span>
+      </div>
+    </a>
+  </div>
   </article>
 </div> <!-- end content forum -->
-<!-- footer 2 -->
-{%- include footer-2.html -%} <!-- end footer 2 -->

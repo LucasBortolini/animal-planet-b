@@ -165,3 +165,36 @@ input[type=number] {
     padding-bottom: 36px;    
   }
 }
+
+.btn-forum-index {
+  background: #FFCF00;
+  cursor: pointer;
+  padding: 6px 80px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  -webkit-box-shadow: 0px 15px 34px -9px #000000; 
+  box-shadow: 0px 15px 34px -9px #000000;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  } 
+}
+
+.checkbox-round {
+  width: 1em;
+  height: 1em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: gray;
+}
